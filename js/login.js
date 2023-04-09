@@ -12,7 +12,7 @@ form.addEventListener('submit', (event) => {
         const usuario = JSON.parse(usuarioLocalStorage);
 
         if(usuario.login === login && usuario.senha === senha){
-            window.location.href = "index.html";
+            window.location.href = "usuario.html";
         } else {
             alert('Login e/ou senha incorretos')
         }
