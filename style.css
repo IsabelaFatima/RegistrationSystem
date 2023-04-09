@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+fieldset{
+    width: 80vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 5px 5px rgba(158, 158, 158, 0.548);
+}
+fieldset h1{
+    color: rgb(75, 75, 179);
+}
+#containerEmail input{
+    width: 100%;
+}
+#containerSenha input{
+    width: 100%;
+} 
+ #containerName input{
+    width: 100%;
+} 
+#containerLogin input{
+    width: 100%;
+}
+#containerDate {
+     margin-left: 10%;
+}
+#containerDate input{
+    width: 83.5%;
+   
+}
+#Logar{
+    width: 30%;
+    height: 30px;
+    color: white;
+    background-color: rgb(75, 75, 179);
+    border-radius: 5px;
+}
